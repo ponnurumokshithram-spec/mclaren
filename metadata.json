@@ -1,0 +1,6 @@
+{
+  "name": "McLaren Performance Telemetry & Track Analytics",
+  "description": "Real-time engine telemetry, tire wear monitoring, and aerodynamic performance precision service dashboard for McLaren 625LT Spider and 720LT supercars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

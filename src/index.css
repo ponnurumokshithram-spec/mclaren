@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0A0A0A;
+    color: #EDEDED;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-racing {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.font-mono-race {
+  font-family: 'Chakra Petch', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Geometric Balance scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6600;
+}
+
+/* Subtle carbon & geometric backgrounds */
+.bg-carbon {
+  background-color: #0D0D0D;
+  background-image: 
+    radial-gradient(#1A1A1A 15%, transparent 16%), 
+    radial-gradient(#1A1A1A 15%, transparent 16%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+}
+
+.bg-telemetry-grid {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-geometric-dots {
+  background-image: radial-gradient(rgba(255, 102, 0, 0.15) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Geometric Balance panel accents */
+.geometric-panel {
+  background-color: #121212;
+  border: 1px solid #222222;
+  border-left: 3px solid #FF6600;
+}
+
